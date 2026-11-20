@@ -1,0 +1,6 @@
+{
+  "name": "Timber Sudoku",
+  "description": "A handcrafted wooden Sudoku app with switchable timber themes, 9x9 Classic & 6x6 Joinery modes, Daily Challenges, smart logical hints, and cloud-synced progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Timber Sudoku</string>
+
+    <!-- Navigation -->
+    <string name="nav_workshop">Workshop</string>
+    <string name="nav_ledger">Ledger</string>
+    <string name="nav_craft">Craft</string>
+
+    <!-- Workshop Home -->
+    <string name="workshop_tagline">Handcrafted Joinery &amp; Logic</string>
+    <string name="resume_carving">Resume Carving</string>
+    <string name="resume_subtitle_format">%1$s • %2$s • %3$d%% carved</string>
+    <string name="daily_challenge_title">Daily Timber Challenge</string>
+    <string name="daily_challenge_solved">Solved Today • Streak %1$d</string>
+    <string name="daily_challenge_ready">Fresh grain puzzle • Streak %1$d</string>
+    <string name="play_daily">Carve Today</string>
+    <string name="select_wood_grain">Timber Finish</string>
+    <string name="select_mode_title">Choose Your Board</string>
+    <string name="mode_classic_9x9">Classic 9×9</string>
+    <string name="mode_joinery_6x6">Joinery 6×6</string>
+    <string name="zen_mode_chip">Zen Mode (No Strikeout)</string>
+
+    <!-- Difficulties -->
+    <string name="diff_apprentice">Apprentice</string>
+    <string name="diff_artisan">Artisan</string>
+    <string name="diff_master">Master</string>
+    <string name="diff_grandmaster">Grandmaster</string>
+
+    <!-- Game Screen -->
+    <string name="action_undo">Undo</string>
+    <string name="action_erase">Erase</string>
+    <string name="action_notes">Chisel</string>
+    <string name="action_candidates">Fill Notes</string>
+    <string name="action_hint">Hint</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="mistakes_label">Mistakes %1$d/%2$d</string>
+    <string name="zen_label">Zen</string>
+    <string name="paused_title">Carving Paused</string>
+    <string name="paused_subtitle">The timber board is covered while you rest.</string>
+    <string name="victory_title">Masterpiece Complete</string>
+    <string name="victory_new_best">New Personal Best</string>
+    <string name="game_over_title">Timber Split</string>
+    <string name="game_over_subtitle">Three misplaced inlays cracked the grain.</string>
+    <string name="continue_zen">Continue in Zen Mode</string>
+    <string name="play_again">New Board</string>
+    <string name="back_to_workshop">Back to Workshop</string>
+    <string name="dismiss_hint">Got it</string>
+
+    <!-- Stats / Ledger -->
+    <string name="ledger_title">Craftsman Ledger</string>
+    <string name="ledger_subtitle">Your recorded solves, streaks &amp; best times</string>
+    <string name="stat_solved">Solved</string>
+    <string name="stat_streak">Daily Streak</string>
+    <string name="stat_best_time">Best 9×9</string>
+    <string name="stat_accuracy">Clean Solves</string>
+    <string name="difficulty_breakdown">Best Times by Difficulty</string>
+    <string name="recent_carvings">Recent Carvings</string>
+    <string name="empty_ledger_title">The Workshop Ledger is Fresh</string>
+    <string name="empty_ledger_body">Complete your first wooden Sudoku puzzle to record your time and start your daily streak.</string>
+
+    <!-- Craft & Guide -->
+    <string name="craft_title">Woodshop &amp; Guide</string>
+    <string name="craft_subtitle">Customize your board timber &amp; study Sudoku joinery</string>
+    <string name="timber_gallery_title">Timber Species</string>
+    <string name="preferences_title">Bench Preferences</string>
+    <string name="pref_zen_title">Zen Carving Mode</string>
+    <string name="pref_zen_desc">Disable the 3-mistake limit for relaxed solving</string>
+    <string name="pref_autoclean_title">Auto-Clean Chisel Notes</string>
+    <string name="pref_autoclean_desc">Remove conflicting pencil marks when placing a digit</string>
+    <string name="pref_highlight_title">Highlight Matching Digits</string>
+    <string name="pref_highlight_desc">Illuminate all identical numbers across the timber grid</string>
+    <string name="pref_haptics_title">Tactile Wood Haptics</string>
+    <string name="pref_haptics_desc">Subtle vibration feedback when tapping and placing tiles</string>
+    <string name="techniques_title">Joinery Techniques</string>
+</resources>

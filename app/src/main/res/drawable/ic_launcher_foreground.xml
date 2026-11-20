@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Drop shadow under wooden plaque -->
+    <path
+        android:fillColor="#55120804"
+        android:pathData="M31,33 L79,33 Q84,33 84,38 L84,82 Q84,87 79,87 L31,87 Q26,87 26,82 L26,38 Q26,33 31,33 Z" />
+
+    <!-- Outer brass/mahogany wooden frame (safe zone 24..84) -->
+    <path android:pathData="M29,28 L79,28 Q84,28 84,33 L84,79 Q84,84 79,84 L29,84 Q24,84 24,79 L24,33 Q24,28 29,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="28"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#E8BE84" android:offset="0.0" />
+                <item android:color="#C99252" android:offset="0.6" />
+                <item android:color="#A46D35" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner recessed maple tray -->
+    <path
+        android:fillColor="#F7E4C6"
+        android:pathData="M30,31 L78,31 Q80,31 80,33 L80,77 Q80,79 78,79 L30,79 Q28,79 28,77 L28,33 Q28,31 30,31 Z" />
+
+    <!-- Contrasting inlaid wood tiles (chessboard subtle marquetry) -->
+    <path android:fillColor="#E9C594" android:pathData="M28,31 h17.3 v16 h-17.3 z" />
+    <path android:fillColor="#E9C594" android:pathData="M62.7,31 h17.3 v16 h-17.3 z" />
+    <path android:fillColor="#D9A362" android:pathData="M45.3,47 h17.4 v16 h-17.4 z" />
+    <path android:fillColor="#E9C594" android:pathData="M28,63 h17.3 v16 h-17.3 z" />
+    <path android:fillColor="#E9C594" android:pathData="M62.7,63 h17.3 v16 h-17.3 z" />
+
+    <!-- Joinery divider lines -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M45.3,31 L45.3,79 M62.7,31 L62.7,79 M28,47 L80,47 M28,63 L80,63"
+        android:strokeWidth="1.8"
+        android:strokeColor="#6E4427" />
+
+    <!-- Bold carved numerals in wood cells: 5 (top-left), 9 (center), 3 (bottom-right) -->
+    <!-- Center tile numeral '9' in deep espresso -->
+    <path
+        android:fillColor="#3A1F11"
+        android:pathData="M54,49.8 C51.4,49.8 49.8,51.4 49.8,53.6 C49.8,55.7 51.3,57.1 53.5,57.1 C54.5,57.1 55.3,56.7 55.8,56.1 L55.8,56.5 C55.8,58.1 54.9,59.1 53.4,59.1 C52.4,59.1 51.7,58.7 51.3,58.1 L49.9,59.1 C50.7,60.2 51.9,60.7 53.5,60.7 C56.1,60.7 57.9,58.8 57.9,55.2 C57.9,51.8 56.4,49.8 54,49.8 Z M53.8,55.5 C52.6,55.5 51.8,54.7 51.8,53.6 C51.8,52.4 52.6,51.5 53.8,51.5 C55.0,51.5 55.8,52.4 55.8,53.6 C55.8,54.7 55.0,55.5 53.8,55.5 Z" />
+
+    <!-- Top-left subtle dot/peg accents -->
+    <path
+        android:fillColor="#5C361E"
+        android:pathData="M36.6,37.2 a2,2 0 1,0 0,4 a2,2 0 1,0 0,-4 z" />
+    <path
+        android:fillColor="#5C361E"
+        android:pathData="M71.3,69.2 a2,2 0 1,0 0,4 a2,2 0 1,0 0,-4 z" />
+
+    <!-- Top bevel highlight -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M29,28.8 L79,28.8"
+        android:strokeWidth="1.2"
+        android:strokeColor="#66FFF2DC" />
+</vector>
